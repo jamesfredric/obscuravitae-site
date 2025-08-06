@@ -62,59 +62,26 @@
     </div>
   </section>
 
- <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Thank You – OVCI</title>
-  <meta name="description" content="Thank you for contacting Obscura Vitae Creative Industries.">
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
+<section id="contact" class="contact-form">
+  <h3>Contact Us</h3>
+  <form action="https://formsubmit.co/create@obscuravitae.com" method="POST">
+    <!-- Required to disable Captcha -->
+    <input type="hidden" name="_captcha" value="false">
 
-  <!-- Header -->
-  <header>
-    <img src="dxm-logo.png" alt="DXM Logo" class="logo">
-    <h1>Message Received</h1>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="dxm.html">DXM</a>
-      <a href="mulberry.html">Mulberry</a>
-      <a href="thank-you.html" class="active">Thank You</a>
-    </nav>
-  </header>
+    <!-- Redirect after submission -->
+    <input type="hidden" name="_next" value="https://obscuravitae.com/thank-you.html">
 
-  <!-- Thank You Message -->
-  <section class="content">
-    <h2>Thank You!</h2>
-    <p>
-      Your message has been successfully sent to the OVCI team.
-      We will review it and get back to you as soon as possible.
-    </p>
-    <p>
-      In the meantime, feel free to explore more about our work:
-    </p>
-    <ul>
-      <li><a href="dxm.html">Discover DXM</a></li>
-      <li><a href="mulberry.html">Learn about Mulberry</a></li>
-      <li><a href="about.html">Read our story</a></li>
-    </ul>
-  </section>
-
-  <!-- Footer -->
-  <footer>
-    <nav class="footer-nav">
-      <a href="index.html">Home</a> |
-      <a href="about.html">About</a> |
-      <a href="dxm.html">DXM</a> |
-      <a href="mulberry.html">Mulberry</a>
-    </nav>
-    <p>&copy; 2025 Obscura Vitae Creative Industries. All rights reserved.</p>
-    <p class="powered">Powered by DXM</p>
-  </footer>
-
+    <label>
+      Your Email:
+      <input type="email" name="email" required>
+    </label>
+    <label>
+      Your Message:
+      <textarea name="message" rows="4" required></textarea>
+    </label>
+    <button type="submit">Send</button>
+  </form>
+</section>
 </body>
 </html>
 
@@ -134,4 +101,5 @@
 
 </body>
 </html>
+
 
