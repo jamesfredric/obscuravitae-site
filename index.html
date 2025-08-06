@@ -3,57 +3,93 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Obscura Vitae Creative Industries</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #0f0f0f;
-      color: white;
-      margin: 0;
-      padding: 0;
-      text-align: center;
-    }
-    header {
-      padding: 50px 20px;
-    }
-    img.logo {
-      max-width: 200px;
-      margin-bottom: 20px;
-    }
-    h1 {
-      font-size: 2rem;
-      margin-bottom: 10px;
-    }
-    p {
-      font-size: 1.1rem;
-      max-width: 600px;
-      margin: 10px auto;
-      line-height: 1.6;
-    }
-    footer {
-      margin-top: 40px;
-      padding: 20px;
-      font-size: 0.9rem;
-      border-top: 1px solid #333;
-    }
-    a {
-      color: #00bfff;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-  </style>
+  <title>OVCI – Obscura Vitae Creative Industries</title>
+  <meta name="description" content="Building Australia's future in ethical AI and adaptive cybersecurity with DXM and Mulberry.">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+  <!-- Header -->
   <header>
-    <img src="logo.png" alt="OVCI Logo" class="logo">
+    <img src="dxm-logo.png" alt="DXM Logo" class="logo">
     <h1>Obscura Vitae Creative Industries</h1>
-    <p>Building the future of ethical AI, innovation, and creative solutions for a better tomorrow.</p>
-    <p>Contact us at <a href="mailto:create@obscuravitae.com">create@obscuravitae.com</a></p>
+    <nav>
+      <a href="index.html" class="active">Home</a>
+      <a href="about.html">About</a>
+      <a href="dxm.html">DXM</a>
+      <a href="mulberry.html">Mulberry</a>
+      <a href="#contact">Contact</a>
+    </nav>
   </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <h2>Innovation with Integrity</h2>
+    <p>We deliver sovereign Australian technology that leads the world in <a href="dxm.html"><strong>ethical AI</strong></a> and <a href="mulberry.html"><strong>adaptive cybersecurity</strong></a>.</p>
+    <div class="hero-buttons">
+      <a href="dxm.html" class="btn">Learn About DXM</a>
+      <a href="mulberry.html" class="btn btn-alt">Explore Mulberry</a>
+    </div>
+  </section>
+
+  <!-- Mission -->
+  <section class="intro">
+    <h3>Our Mission</h3>
+    <p>To lead the world in creating technology that empowers people, secures critical infrastructure, and delivers measurable national benefit – without compromise.</p>
+  </section>
+
+  <!-- Product Highlights -->
+  <section class="highlights">
+    <div class="highlight">
+      <img src="dxm-logo.png" alt="DXM Logo" class="highlight-logo">
+      <h4><a href="dxm.html">DXM – The Creative Engine</a></h4>
+      <p>Never needs patching, with a core corruption rate of less than 0.00000001%.</p>
+    </div>
+    <div class="highlight">
+      <img src="mulberry-logo.png" alt="Mulberry Logo" class="highlight-logo">
+      <h4><a href="mulberry.html">Mulberry – The Smart Digital Defender</a></h4>
+      <p>Breach success rate of less than 0.0005%, adapting to every attack.</p>
+    </div>
+  </section>
+
+  <!-- Ecosystem -->
+  <section class="ecosystem">
+    <h3>Powered by DXM</h3>
+    <p>All OVCI technologies, including <a href="mulberry.html">Mulberry</a>, are built on the <a href="dxm.html">DXM</a> engine – the backbone of our innovation ecosystem.</p>
+    <div class="brand-logos">
+      <img src="dxm-logo.png" alt="DXM Logo" class="ecosystem-logo">
+      <img src="mulberry-logo.png" alt="Mulberry Logo" class="ecosystem-logo">
+    </div>
+  </section>
+
+  <!-- Contact Form -->
+  <section id="contact" class="contact-form">
+    <h3>Contact Us</h3>
+    <form action="https://formspree.io/f/xwpprz1d" method="POST">
+      <label>
+        Your Email:
+        <input type="email" name="email" required>
+      </label>
+      <label>
+        Your Message:
+        <textarea name="message" rows="4" required></textarea>
+      </label>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
   <footer>
-    &copy; 2025 Obscura Vitae Creative Industries. All rights reserved.
+    <nav class="footer-nav">
+      <a href="index.html">Home</a> |
+      <a href="about.html">About</a> |
+      <a href="dxm.html">DXM</a> |
+      <a href="mulberry.html">Mulberry</a> |
+      <a href="#contact">Contact</a>
+    </nav>
+    <p>&copy; 2025 Obscura Vitae Creative Industries. All rights reserved.</p>
+    <p class="powered">Powered by DXM</p>
   </footer>
+
 </body>
 </html>
